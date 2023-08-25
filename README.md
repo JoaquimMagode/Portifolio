@@ -1,2 +1,2 @@
 # Portifolio
- Everthing about me
+ About me
