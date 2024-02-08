@@ -146,6 +146,12 @@ sup {
 sub {
   bottom: -.25em;
 }
+#home{
+  min-height: 100vh;
+  background-image: url(../v1/img/bannerimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;background-position: center;
+}
 
 sup {
   top: -.5em;
