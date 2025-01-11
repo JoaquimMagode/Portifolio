@@ -1,8 +1,11 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
 class Main {
     public int linearSearch(int[] arr, int target){
     int n = 5;
     
-    for(int i=0;i<=5;i++){
+    for(int i=0;i<=arr.length-1;i++){
         if(arr[i] == target){
             return i;
         }
@@ -39,7 +42,7 @@ class Main {
         System.out.println("-Linear Search- "+p+" --");
         System.out.println("-Binary Search- "+b+" --");  
         
-        for(int i=0;i<=4;i++){
+        for(int i=0;i<=arr.length-1;i++){
             System.out.print(" "+arr[i]);    
         }
         
